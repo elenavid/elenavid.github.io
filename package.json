@@ -1,0 +1,23 @@
+{
+  "name": "elenavid.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "http-server -o",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elenavid/elenavid.github.io.git"
+  },
+  "author": "elenavid",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/elenavid/elenavid.github.io/issues"
+  },
+  "homepage": "https://github.com/elenavid/elenavid.github.io#readme",
+  "devDependencies": {
+    "http-server": "^0.12.0"
+  }
+}

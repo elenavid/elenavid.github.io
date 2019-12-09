@@ -74,3 +74,56 @@ html, body {
   background-size: 100%;
   transition: background 0s;
 }
+
+/* home */
+.home-background {
+  /* background-image: url(/img/blank-business-composition-computer-373076.jpg); */
+  background-image: url(/img/painting-and-drawing-tools-set-207665.jpg);
+  background-repeat: no-repeat;
+  background-size: 1980px auto;
+  background-position-x: center;
+  background-position-y: -200px;
+  /* min-height: 1000px; */
+  height: 100vh;
+  overflow: hidden;
+  margin-bottom: 3em;
+}
+
+.home-logo {
+  margin: 0 auto;
+  width: 400px;
+  height: 400px;
+  border-radius: 200px;
+  margin-top: 250px;
+  background-image: url('/img/photo-of-3-capybara-standing-near-wooden-branch-and-grass-160583.jpg');
+  background-size: 800px;
+  background-repeat: no-repeat;
+  background-position: -320px -10px;
+  box-shadow: 0 0 20px;
+}
+
+.home-description {
+  padding-left: 3em;
+  padding-right: 3em;
+  margin-bottom: 3em;
+}
+
+.home-demo-grid {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 3em;
+  flex-wrap: wrap;
+}
+
+.home-demo-grid > div {
+  flex: 1 0 33%;
+  padding-left: 3em;
+  padding-bottom: 3em;
+  box-sizing: border-box;
+}
+
+.home-demo-title {
+  text-align: center;
+  font-size: 14px;
+  padding: 10px;
+}
